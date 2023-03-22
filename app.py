@@ -1,6 +1,7 @@
 from flask import Flask,  request, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
+
 app = Flask(__name__)
 # MySQl所在的主机名
 HOSTNAME = "127.0.0.1"
