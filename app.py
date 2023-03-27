@@ -109,6 +109,7 @@ def delete_user():
     db.session.delete(user)
     # 3、将db.session中修改，同步到数据库中
     db.session.commit()
+    print("")
     return "数据删除成功"
 
 
